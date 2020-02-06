@@ -8,16 +8,7 @@ def directors_totals(nds)
   r_index = 0
   while r_index < directors_database.length do
       c_index = 0
-    while c_index < directors_database[r_index].length do
-      i_index = 0
-      i_len = directors_database[r_index][c_index].length
-      
-     while i_index < i_len do
-        total += directors_database[r_index][c_index][i_index][:worldwide_gross]
-        i_index += 1
-      end
-      c_index += 1
-    end
+    
      puts directors_database[r_index][:name] + "=>" #{total}
     r_index += 1
   end
