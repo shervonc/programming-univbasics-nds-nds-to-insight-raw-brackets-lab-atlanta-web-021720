@@ -5,9 +5,9 @@ require 'pp'
 def directors_totals(nds)
   
   total = 0
-  r_index = 0
+  d_name = nds[:name]
   while r_index < nds.length do
-      c_index = 0
+    
     
      puts directors_database[r_index][:name] + "=>" #{total}
     r_index += 1
