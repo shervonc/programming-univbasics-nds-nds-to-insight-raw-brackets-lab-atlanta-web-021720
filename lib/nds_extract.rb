@@ -3,11 +3,11 @@ require 'directors_database'
 require 'pp'
 
 def directors_totals(nds)
-  
+  result ={}
   total = 0
   d_name = nds[:name]
   while r_index < nds.length do
-    
+    result
          puts nds[:name] + "=>" #{total}
     r_index += 1
   end
