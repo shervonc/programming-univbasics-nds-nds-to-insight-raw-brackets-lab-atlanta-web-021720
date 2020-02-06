@@ -11,10 +11,10 @@ def directors_totals(nds)
    d_name = nds[d_index][:name]
      result[d_name] = 0
      while m_index < d_name[:movies].length
-     result[d_name] += d_name[:movies]
+     result[d_name] += d_name[:movies][:worldwide_gross]
     m_index += 1
   end
- r_index += 1
+ d_index += 1
  end
   # Remember, it's always OK to pretty print what you get *in* to make sure
   # that you know what you're starting with!
