@@ -4,10 +4,10 @@ require 'pp'
 
 def directors_totals(nds)
   result ={}
-  total = 0
-  r_index = 0
+  
+  d_name_index = 0
   d_name = nds[:name]
-  while r_index < nds.length do
+  while d_index < nds.length do
   m_index = 0
      m_len = nds[:name][:movies].length
      while m_index < m_len
