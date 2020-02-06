@@ -8,7 +8,7 @@ def directors_totals(nds)
   d_name = nds[:name]
   while r_index < nds.length do
   m_index = 0
-         
+     i_index = nds[]    
     r_index += 1
   end
  
