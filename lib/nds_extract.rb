@@ -14,7 +14,7 @@ def directors_totals(nds)
       total += directors_database[r_index][c_index][:worldwide_gross]
       c_index += 1
     end
-     puts total
+     puts directors_database[r_index][:name] total
     r_index += 1
   end
  
