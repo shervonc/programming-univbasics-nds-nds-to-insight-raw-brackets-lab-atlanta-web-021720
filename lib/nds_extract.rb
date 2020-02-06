@@ -4,14 +4,14 @@ require 'pp'
 
 def directors_totals(nds)
   result ={}
-    d_name_index = 0
+    d_index = 0
  
   while d_index < nds.length do
   m_index = 0
    d_name = nds[d_index][:name]
      result[d_name] = 0
-     while m_index < m_len
-     result << dname  total += nds[:name][:movies][:worldwide_gross]
+     while m_index < d_name[:movies].length
+     result
     m_index += 1
   end
  r_index += 1
