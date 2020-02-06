@@ -9,7 +9,7 @@ def directors_totals(nds)
   while r_index < directors_database.length do
       c_index = 0
     while c_index < directors_database[r_index].length do
-      total += directors_database[r_index][c_index][:title][:worldwide_gross]
+      total += directors_database[r_index][c_index][:movies][:worldwide_gross]
       c_index += 1
     end
      puts directors_database[r_index][:name] + "=>" #{total}
